@@ -1,0 +1,37 @@
+<beans xmlns ="http://www.springframework.org/schema/beans"
+ xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:context = "http://www.springframework.org/schema/context"
+ xsi:schemaLocation =
+"http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+ 
+ <bean name="collection" class="com.cozentus.UserInformation.Bean.UserDetails">
+ 	
+ 	<property name="user_id">
+ 	<list>
+ 	<value>CZ0251</value>
+ 	</list>
+ 	</property>
+ 	
+ 	<property name="name">
+ 	<list>
+ 	<value>Gourish</value>
+ 	</list>
+ 	</property>
+ 	
+ 	<property name="user_address">
+ 	<list>
+ 	<value>Patia, Bhubaneswar</value>
+ 	</list>
+ 	</property>
+ 	
+ 	<property name="contactNo">
+ 	<set>
+ 	<value>1234567890</value>
+ 	</set>
+ 	</property>
+ 	
+ </bean>
+</beans>

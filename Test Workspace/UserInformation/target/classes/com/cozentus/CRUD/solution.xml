@@ -1,0 +1,14 @@
+Advantage of Spring Framework - 
+(1) We dont need to add jar dependencies externally.
+(2) Spring don't increase the storage of the project as it stores jar in .m2 folder in the local pc.
+(3) Spring is considered as the framework of the framework as it have many frameworks inbuit.
+
+Different Module of Spring - 
+(1) IoC container
+(2) Spring Core
+(3) Spring Context
+(4) Spring Web MVC
+
+Different types of dependency injections are -
+(1)	Xml type
+(2)	Externally adding jar files
